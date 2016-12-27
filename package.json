@@ -1,6 +1,6 @@
 {
   "name": "additween-mocks",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Mocks for the additween animation library",
   "main": "index.js",
   "scripts": {
