@@ -55,6 +55,6 @@
     "webpack": "2.2.1"
   },
   "dependencies": {
-    "additween": "~2.0.0"
+    "additween": "~2.1.0"
   }
 }
