@@ -2,7 +2,11 @@
   "name": "additween-mocks",
   "version": "2.0.1",
   "description": "Mocks for the additween animation library",
-  "main": "index.js",
+  "main": "dist/additween-mocks.js",
+  "files": [
+    "dist/*",
+    "index.d.ts"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack",
@@ -55,6 +59,6 @@
     "webpack": "2.2.1"
   },
   "dependencies": {
-    "additween": "~2.0.0"
+    "additween": "~2.1.0"
   }
 }

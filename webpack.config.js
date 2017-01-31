@@ -3,7 +3,7 @@ const getBaseWebpackConfig = require('./getBaseWebpackConfig')
 
 const unminifiedConfig = getBaseWebpackConfig()
 unminifiedConfig.entry = {
-    'additween-mocks': './index'
+    'additween-mocks': './src/index'
 }
 
 module.exports = [
