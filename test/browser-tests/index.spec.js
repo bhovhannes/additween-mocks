@@ -3,7 +3,7 @@
 
 var expect = require('expect.js')
 
-var AdditiveTweeningMock = require('../../index').AdditiveTweeningMock
+var AdditiveTweeningMock = require('../../src/index').AdditiveTweeningMock
 
 
 describe('additween-mocks', function() {
