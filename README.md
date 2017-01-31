@@ -17,7 +17,7 @@ npm install additween-mocks --save
 
 ```javascript
 import {AdditiveTweening} from 'additween'
-import {AdditiveTweeningMock} from 'additween/dist/additween-mocks'
+import {AdditiveTweeningMock} from 'additween-mocks'
  
 describe('my great app', function() {
     let additiveTweeningMock = new AdditiveTweeningMock()
