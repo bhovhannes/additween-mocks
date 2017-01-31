@@ -1,6 +1,6 @@
 {
   "name": "additween-mocks",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Mocks for the additween animation library",
   "main": "dist/additween-mocks.js",
   "files": [
