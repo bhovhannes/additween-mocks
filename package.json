@@ -56,7 +56,7 @@
     "phantomjs-prebuilt": "2.1.15",
     "typescript": "2.5.3",
     "typescript-definition-tester": "0.0.5",
-    "webpack": "3.7.1"
+    "webpack": "3.8.0"
   },
   "dependencies": {
     "additween": "~2.1.0"
