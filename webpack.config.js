@@ -5,6 +5,7 @@ const unminifiedConfig = getBaseWebpackConfig()
 unminifiedConfig.entry = {
     'additween-mocks': './src/index'
 }
+unminifiedConfig.mode = 'development'
 
 module.exports = [
     unminifiedConfig
