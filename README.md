@@ -93,7 +93,7 @@ MIT (http://www.opensource.org/licenses/mit-license.php)
 [npm-version-image]: https://img.shields.io/npm/v/additween-mocks.svg?style=flat
 [npm-downloads-image]: https://img.shields.io/npm/dm/additween-mocks.svg?style=flat
 
-[travis-url]: https://travis-ci.org/bhovhannes/additween-mocks
+[travis-url]: https://travis-ci.com/bhovhannes/additween-mocks
 [travis-image]: https://img.shields.io/travis/bhovhannes/additween-mocks.svg?style=flat
 
 [codecov-url]: https://codecov.io/gh/bhovhannes/additween-mocks
