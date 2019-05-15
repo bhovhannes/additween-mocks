@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/bhovhannes/additween-mocks#readme",
   "devDependencies": {
-    "codecov": "3.4.0",
+    "codecov": "3.5.0",
     "eslint": "5.16.0",
     "eslint-loader": "2.1.2",
     "expect.js": "0.3.1",
