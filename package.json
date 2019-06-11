@@ -57,7 +57,7 @@
     "typescript": "3.5.1",
     "typescript-definition-tester": "0.0.6",
     "webpack": "4.33.0",
-    "webpack-cli": "3.3.3"
+    "webpack-cli": "3.3.4"
   },
   "dependencies": {
     "additween": "~2.1.0"
