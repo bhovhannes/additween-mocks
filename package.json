@@ -63,7 +63,7 @@
     "prettier": "2.2.1",
     "rimraf": "3.0.2",
     "rollup": "2.40.0",
-    "typescript": "4.1.5"
+    "typescript": "4.2.2"
   },
   "dependencies": {
     "additween": "~3.0.0"
