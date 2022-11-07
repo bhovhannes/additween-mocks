@@ -1,14 +1,14 @@
-import babel from "@rollup/plugin-babel";
-import commonjs from "@rollup/plugin-commonjs";
-import nodeResolve from "@rollup/plugin-node-resolve";
+const babel = require("@rollup/plugin-babel");
+const commonjs = require("@rollup/plugin-commonjs");
+const nodeResolve = require("@rollup/plugin-node-resolve");
 
-import pkg from "./package.json";
+const pkg = require("./package.json");
 
 const globals = {};
 
 const extensions = [".ts", ".js"];
 
-export default {
+module.exports = {
     input: "src/index.ts",
     output: [
         {
