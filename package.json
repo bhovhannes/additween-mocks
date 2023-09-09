@@ -46,7 +46,7 @@
     "@babel/preset-typescript": "7.22.15",
     "@babel/runtime": "7.22.15",
     "@bhovhannes/shared-config": "0.0.1",
-    "@evilmartians/lefthook": "1.4.9",
+    "@evilmartians/lefthook": "1.4.10",
     "@jest/globals": "29.6.4",
     "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-commonjs": "25.0.4",
