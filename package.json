@@ -60,7 +60,7 @@
     "jest-environment-jsdom": "29.7.0",
     "prettier": "3.2.5",
     "rollup": "4.13.2",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "dependencies": {
     "additween": "~3.0.0"
