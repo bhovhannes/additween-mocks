@@ -15,40 +15,40 @@ npm install additween-mocks --save
 ## Usage example
 
 ```javascript
-import { AdditiveTweening } from "additween";
-import { AdditiveTweeningMock } from "additween-mocks";
+import { AdditiveTweening } from 'additween'
+import { AdditiveTweeningMock } from 'additween-mocks'
 
-describe("my great app", function () {
-  let additiveTweeningMock = new AdditiveTweeningMock();
+describe('my great app', function () {
+  let additiveTweeningMock = new AdditiveTweeningMock()
   beforeEach(function () {
-    additiveTweeningMock = new AdditiveTweeningMock();
-    additiveTweeningMock.install(AdditiveTweening);
-  });
+    additiveTweeningMock = new AdditiveTweeningMock()
+    additiveTweeningMock.install(AdditiveTweening)
+  })
 
   afterEach(function () {
-    additiveTweeningMock.uninstall(AdditiveTweening);
-  });
+    additiveTweeningMock.uninstall(AdditiveTweening)
+  })
 
-  it("should animate perfectly", function () {
+  it('should animate perfectly', function () {
     // let's say clicking a button
     // will cause an animation with 2000ms duration
     // we assume there is a triggerClick method defined somewhere
-    let btn = document.getElementById("byButton");
-    triggerClick(btn);
+    let btn = document.getElementById('byButton')
+    triggerClick(btn)
 
     // let time go forward by 1000ms
-    additiveTweeningMock.tick(1000);
+    additiveTweeningMock.tick(1000)
 
     //now we can make assertions about animation state after half of time
     //expect(...)
 
     // let time go forward by another 1000ms
-    additiveTweeningMock.tick(1000);
+    additiveTweeningMock.tick(1000)
 
     //now we can make assertions about animation final state
     //expect(...)
-  });
-});
+  })
+})
 ```
 
 ### Mock API
