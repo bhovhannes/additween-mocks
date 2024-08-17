@@ -1,3 +1,3 @@
-import { AdditiveTweeningMock } from "./AdditiveTweeningMock";
+import { AdditiveTweeningMock } from './AdditiveTweeningMock'
 
-export { AdditiveTweeningMock };
+export { AdditiveTweeningMock }

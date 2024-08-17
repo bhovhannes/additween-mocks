@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = (api) => {
   const { NODE_ENV } = process.env
 
