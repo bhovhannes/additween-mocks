@@ -50,7 +50,7 @@
     "@evilmartians/lefthook": "1.9.2",
     "@jest/globals": "29.7.0",
     "@rollup/plugin-babel": "6.0.4",
-    "@rollup/plugin-commonjs": "26.0.3",
+    "@rollup/plugin-commonjs": "28.0.1",
     "@rollup/plugin-node-resolve": "15.3.0",
     "@typescript-eslint/eslint-plugin": "8.17.0",
     "@typescript-eslint/parser": "8.17.0",
